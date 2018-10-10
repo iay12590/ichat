@@ -1,0 +1,2 @@
+# ichat
+server:netty
