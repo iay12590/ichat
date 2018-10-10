@@ -1,0 +1,17 @@
+{
+  "properties": [
+    {
+      "defaultValue": false,
+      "name": "ichat.server.enable-log",
+      "sourceType": "com.warden.ichat.config.ServerConfig",
+      "type": "java.lang.Boolean",
+      "description": "Description for ichat.server.enable-log."
+    },
+    {
+      "name": "ichat.server.port",
+      "sourceType": "com.warden.ichat.config.ServerConfig",
+      "type": "java.lang.Integer",
+      "defaultValue": 80,
+      "description": "Description for ichat.server.port."
+    }
+  ] }

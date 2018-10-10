@@ -1,0 +1,4 @@
+ichat:
+  server:
+    port: 6010
+    enable-log: true
