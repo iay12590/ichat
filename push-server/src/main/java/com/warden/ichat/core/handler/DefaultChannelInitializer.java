@@ -16,7 +16,9 @@ public class DefaultChannelInitializer extends ChannelInitializer<SocketChannel>
 
     @Override
     protected void initChannel(SocketChannel ch) throws Exception {
-        //todo logHandler报错
+        if (enableLogging) {
+            ch.pipeline().addLast("logHandler", new LogHandler());
+        }
         ch.pipeline().addLast("handler", new BusinessHandler());
     }
 }

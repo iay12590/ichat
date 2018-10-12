@@ -12,5 +12,11 @@
     <groupId>com.warden.ichat.tool</groupId>
     <artifactId>socket-tool</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.1.23.Final</version>
+        </dependency>
+    </dependencies>
 </project>

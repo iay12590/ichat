@@ -10,18 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.warden.ichat</groupId>
-    <artifactId>tool</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>socket-tool</module>
-    </modules>
+    <artifactId>chat-common</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.warden.ichat</groupId>
-            <artifactId>chat-common</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-    </dependencies>
 
 </project>
